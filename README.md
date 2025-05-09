@@ -15,3 +15,13 @@ temp=a
 a=b
 b=temp
 print("after swapping ",a,b)
+
+
+#swapping numbers(using arithmetic operations)
+a=int(input("enter the value of a:"))
+b=int(input("enter the value of b:"))
+print("before swapping a= ","b= ",b)
+b=a+b
+b=a-b
+a=a-b
+print("afte swapping a= ", a,"b= ",b)
