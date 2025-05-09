@@ -35,3 +35,11 @@ a=a*b
 b=a/b
 a=a/b
 print("afte swapping a= ",round(a) ,"b= ",round(b))
+
+
+#swapping numbers(using xor operation)
+a=int(input("enter the value of a:"))
+b=int(input("enter the value of b:"))
+print("result:",a^b)
+print("result:",a&b)
+print("result:",a|b)
